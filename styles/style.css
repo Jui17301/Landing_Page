@@ -2,6 +2,44 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500;600&family=Raleway:ital,wght@0,100;1,100&family=Roboto+Slab:wght@500&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap');
 
+/* header */
+
+.nav-container{
+  display: flex;
+  justify-content: space-around;
+  width: 1440px;
+height: 94px;
+background-color: #562EFF;
+padding-top:20px ;
+padding-bottom:10px;
+  
+}
+
+.first-half .icon img{
+  width: 40.42px;
+  height: 51px;
+}
+.first-half{
+  display: flex;
+  column-gap: 10px;
+}
+.first-half p{
+  color:white;
+}
+
+
+.second-half a{
+  text-decoration: none;
+  color:white;
+  padding: 10px;
+
+  
+}
+.second-half img{
+  width: 51px;
+height: 51px;
+}
+
 /* common styles  */
 body{
   font-family: 'Poppins', sans-serif;
